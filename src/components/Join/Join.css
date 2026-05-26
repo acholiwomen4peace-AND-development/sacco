@@ -1,0 +1,10 @@
+.Join{
+	display: grid;
+	grid-template-columns: 2fr;
+}
+
+.JoinReset{
+	display: grid;
+	grid-template-rows: 	1fr;
+	grid-template-columns: 0.5fr 0.5fr 0.5fr;
+}

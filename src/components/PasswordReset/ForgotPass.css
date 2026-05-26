@@ -1,0 +1,17 @@
+
+.PasswReset{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.PasswordReset{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ForgotPassContainer{
+	@media(max-width:650px){
+		max-width: '20%';
+	}
+}

@@ -1,0 +1,75 @@
+
+.Header{
+	width: 100%;
+	Height: 70px;
+	display: flex;
+	margin-bottom: 25px;
+	justify-content: flex-end;
+}
+ 	
+.logo-C{
+		width: 50%;
+		height: 60%;
+		border-radius: 50%;
+
+		@media (max-width: 1011px){
+  	width: 45%;
+  	height: 45%;
+  		} 
+
+	}
+
+.opts p{
+		@media (max-width: 1011px){
+  	font-size: 12px;
+  		} 
+
+	}
+
+	.dropdownlis{
+	display: none;
+  position: absolute;
+  min-width: 0%;
+  cursor: pointer;
+  border-radius: 10%;
+  margin: 0% 0%;
+  padding-top: 0px;
+ 
+}
+
+.dropdow:hover .dropdownlis{
+  display: grid;
+  grid-auto-rows: 0.05fr;
+
+  } 
+	
+
+	.opts{
+		width: auto;
+		height: 100%;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.optionValue{
+		padding: 10px 15px;
+		font-size: 1rem;
+		font-family: fantasy!important;
+		color: white;
+		
+	}
+
+	.dropdownlisting{
+		display: none;
+		position: absolute;
+  min-width: 0%;
+  cursor: pointer;
+  border-radius: 10%;
+  margin: 0% 0%;
+  padding-top: 0px;
+	}
+	
+	.dropdow:hover .dropdownlisting{
+  display: grid;
+  grid-template-rows: 0.0005fr 0.0005fr;
+
+  } 
