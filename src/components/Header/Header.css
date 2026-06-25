@@ -39,7 +39,7 @@
   width: 40px;
   font-family: "Bookman old style";
   color: white;
-  padding-top: 	2.5%;
+  padding-top: 	3%;
 }
 
 
@@ -63,6 +63,9 @@
 		display: flex;
 		justify-content: flex-end;
 		position: 	relative;	
+	}
+	.opts img{
+		position: relative;
 	}
 	.optionValue{
 		 top: 0;  
