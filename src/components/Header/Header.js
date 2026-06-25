@@ -19,10 +19,10 @@ class Header extends React.Component{
 	<div className='opts'>
 		<p className='optionValue' onClick={()=>{this.props.onRouteChange('isSignin')}} >Home</p>
 		<p className='optionValue' onClick={this.onButtonSave}>Saving</p>
-		<p className='optionValue' >Loans</p>
+		<p className='optionValue' >Loans</p><span></span>
 		 <div className=" dropdow" >
 		    
-			<img src={logo} alt="logo" width='2%' height='30%' style={{cursor: 'pointer', 'border-radius': '50%', position:'absolute', right: '-5%'}}className='logo-C' /> 
+			<img src={logo} alt="logo" width='2%' height='30%' style={{cursor: 'pointer', 'border-radius': '50%', position:'absolute', right: '0%'}}className='logo-C' /> 
 	      	<div className="dropdownlis">
 	     	<p className=" Listdow mt0 ma0 pa0" onClick={()=>{this.props.onRouteChange('Sign')}} >Sign Out</p><br></br>
 	    
