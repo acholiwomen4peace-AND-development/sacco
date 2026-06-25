@@ -19,16 +19,14 @@
 		padding: 0% 1.5%;
 
 	}
-
-	.dropdownlis p{
-		padding: 5% 0%;
-
-	}
+.dropdownlis p{
+	font-size: 12px;
+}
 
 .opts{
 	margin-right: 5%;
 		@media (max-width: 1011px){
-  	font-size: 12px;
+  	font-size: 10px;
   		} 
 
 	}
