@@ -8,10 +8,7 @@
 }
  	
 .logo-C{
-		width: 80%;
-		height: 50%;
-		border-radius: 50%;
-
+		
 		@media (max-width: 1011px){
   	width: 60%;
   	height: 45%;
@@ -64,11 +61,7 @@
 		justify-content: flex-end;
 		position: 	relative;	
 	}
-	.opts img{
-		position: relative;
-		width: 60%vw!important;
-		height: 35vh%!important;
-	}
+	
 	.optionValue{
 		 top: 0;  
 
