@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sacco/static/css/main.d82577e0.css",
-    "main.js": "/sacco/static/js/main.7e448ec4.js",
+    "main.css": "/sacco/static/css/main.4503edf5.css",
+    "main.js": "/sacco/static/js/main.91ecc444.js",
     "static/js/453.21452597.chunk.js": "/sacco/static/js/453.21452597.chunk.js",
     "static/media/6.jpg": "/sacco/static/media/6.88d73d3fa023517290e0.jpg",
     "static/media/7.jpg": "/sacco/static/media/7.88d73d3fa023517290e0.jpg",
@@ -15,12 +15,12 @@
     "static/media/logo.jpg": "/sacco/static/media/logo.5c93c2a197f3c67952fa.jpg",
     "static/media/Cellphone.JPG": "/sacco/static/media/Cellphone.031bb2ed39c398ec2aaa.JPG",
     "index.html": "/sacco/index.html",
-    "main.d82577e0.css.map": "/sacco/static/css/main.d82577e0.css.map",
-    "main.7e448ec4.js.map": "/sacco/static/js/main.7e448ec4.js.map",
+    "main.4503edf5.css.map": "/sacco/static/css/main.4503edf5.css.map",
+    "main.91ecc444.js.map": "/sacco/static/js/main.91ecc444.js.map",
     "453.21452597.chunk.js.map": "/sacco/static/js/453.21452597.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d82577e0.css",
-    "static/js/main.7e448ec4.js"
+    "static/css/main.4503edf5.css",
+    "static/js/main.91ecc444.js"
   ]
 }
