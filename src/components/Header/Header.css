@@ -8,12 +8,12 @@
 }
  	
 .logo-C{
-		width: 50%;
-		height: 60%;
+		width: 80%;
+		height: 50%;
 		border-radius: 50%;
 
 		@media (max-width: 1011px){
-  	width: 45%;
+  	width: 60%;
   	height: 45%;
   		} 
 
@@ -28,32 +28,48 @@
 
 	.dropdownlis{
 	display: none;
-  position: absolute;
+  position: relative;
   min-width: 0%;
   cursor: pointer;
   border-radius: 10%;
   margin: 0% 0%;
   padding-top: 0px;
+  top: 0;              /* Aligns the top of the submenu with the top of the parent */
+  right: 100%;         /* Forces the submenu to expand to the left of the parent link */
+  width: 40px;
+  font-family: "Bookman old style";
+  color: white;
+
  
 }
 
 .dropdow:hover .dropdownlis{
   display: grid;
   grid-auto-rows: 0.05fr;
+  .opts{
+		width: 100vw;
+		height: 100%;
+		display: flex;
+		justify-content: flex-end;
+	}
 
   } 
 	
 
 	.opts{
-		width: auto;
+		width: 100vw;
 		height: 100%;
 		display: flex;
 		justify-content: flex-end;
 	}
 	.optionValue{
+		 top: 0;  
+
 		padding: 10px 15px;
+		 padding-top: 0px; 
+		 margin-top: 0px;
 		font-size: 1rem;
-		font-family: fantasy!important;
+		
 		color: white;
 		
 	}

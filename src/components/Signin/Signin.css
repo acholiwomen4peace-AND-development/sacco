@@ -41,7 +41,12 @@ padding-top: 2%;
 padding-right: 5%;
 }
 
-
+.flx-container2 p{
+	text-align: center;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	font-size: 1em;
+}
 
 .flex-container1-1-1{
 

@@ -20,13 +20,13 @@ class Header extends React.Component{
 		<p className='optionValue' onClick={()=>{this.props.onRouteChange('isSignin')}} >Home</p>
 		<p className='optionValue' onClick={this.onButtonSave}>Saving</p>
 		<p className='optionValue' >Loans</p>
-		 <div className="optionValue dropdow" >
+		 <div className=" dropdow" >
 		    
 			<img src={logo} alt="logo" className='logo-C' />
-	      	<div className="dropdownlisting">
-	     	<p className=" optionValue Listdow mt0 ma0 pa0" onClick={()=>{this.props.onRouteChange('Sign')}} >Sign Out</p><br></br>
+	      	<div className="dropdownlis">
+	     	<p className=" Listdow mt0 ma0 pa0" onClick={()=>{this.props.onRouteChange('Sign')}} >Sign Out</p><br></br>
 	    
-	     	<p className=" optionValue Listdow mt0 ma0 mh-0 pa0" onClick={()=>{this.props.onRouteChange('ChangePassword')}} >Change Password</p>
+	     	<p className="Listdow mt0 ma0 mh-0 pa0" onClick={()=>{this.props.onRouteChange('ChangePassword')}} >Change Password</p>
 	     	</div>
 	  	</div>
 	</div>

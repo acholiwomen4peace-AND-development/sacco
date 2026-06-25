@@ -114,7 +114,7 @@ class Signin extends Component{
 			
 	
 		<div className="flx-container2 ">
-			<p>Developer <span>|</span> {<img src={Cellphone} alt="Tel:" style={{width:'15px', height:'15px', 'borderRadius': '50%'}} />} +256(0) 782 005 826  {<LocationIcon size='1em' />} Patongo, Agago District {<Copyright />}</p>
+			<p><strong><em>Developer <span>|</span> {<img src={Cellphone} alt="Tel:" style={{width:'15px', height:'15px', 'borderRadius': '50%'}} />} +256(0) 782 005 826  {<LocationIcon size='1em' />} Patongo, Agago District {<Copyright />}</em></strong></p>
 		</div>
 	</div>					
 		);

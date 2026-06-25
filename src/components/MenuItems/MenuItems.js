@@ -3,6 +3,7 @@ import '../Register/Register.css'
 import Scroll2 from '../Scroll/Scroll2'
 import { NavLink } from 'react-router-dom'
 import mike from './mike.jpg'
+import './MenuItems.css'
 class MenuItems extends Component{
 constructor(props){
 	super(props);
@@ -18,7 +19,7 @@ onButtonRegister=()=>{
 }
 render(){
 	return(
-<div className="" style={{background: '#1d4ed8'}}>
+<div className="Menu" style={{background: '#1d4ed8'}}>
 
 	<div className="mt0 pa0 ma0" style={{background: '#f2f2f2', margin: '0px', padding: '10px', height: '30%', width:'100%'}}>
 		<img className="center mt0" src={mike} alt= "" style={{width: '50%', height:'60%', cursor: 'pointer', 'border-radius': '50%'}}/> 

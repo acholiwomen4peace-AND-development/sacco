@@ -75,11 +75,11 @@ li{
 p:hover, li:hover{
 	background-color: #555;
 }
-p{
+.Register p{
 	text-align: center;
 	margin: 0px 0px;
 	padding: 0px 0px;
-	font-family: fantasy;
+	
 	font-size: 1em;
 }
 a{
