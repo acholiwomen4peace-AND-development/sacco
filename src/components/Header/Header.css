@@ -10,13 +10,14 @@
 .logo-C{
 		
 		@media (max-width: 1011px){
-  	width: 60%;
-  	height: 45%;
+  	width: 5%;
+  	height: 30%;
   		} 
 
 	}
 
-.opts p{
+.opts{
+	margin-right: 5%;
 		@media (max-width: 1011px){
   	font-size: 12px;
   		} 
@@ -44,6 +45,7 @@
 .dropdow:hover .dropdownlis{
   display: grid;
   grid-auto-rows: 0.05fr;
+  right: -2%;
   .opts{
 		width: 100vw;
 		height: 100%;
