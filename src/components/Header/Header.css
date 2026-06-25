@@ -58,7 +58,7 @@
 	
 
 	.opts{
-		width: 100vw;
+		width: 100%;
 		height: 100%;
 		display: flex;
 		justify-content: flex-end;
@@ -66,8 +66,8 @@
 	}
 	.opts img{
 		position: relative;
-		width: 60%vw;
-		height: 35vh%;
+		width: 60%vw!important;
+		height: 35vh%!important;
 	}
 	.optionValue{
 		 top: 0;  
@@ -96,3 +96,7 @@
   grid-template-rows: 0.0005fr 0.0005fr;
 
   } 
+.listdown p{
+padding-top: 10%;
+
+}

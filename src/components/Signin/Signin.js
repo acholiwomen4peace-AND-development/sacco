@@ -65,8 +65,8 @@ class Signin extends Component{
 				    <main className="pa4 black-80">
 				  <img className="center" src={logo} alt="logo" width='30%' height='15%' style={{'border-radius': '50%', 'padding-bottom': '2%'}} /> 
 				  <div className="measure">
-				    <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-				      <legend  className="f2 fw6 ph0 mh0 vsla center">Community Peace Agency VSLA </legend>
+				    <fieldset id="sign_up" className="ba b--transparent ph0 mh0 ">
+				      <legend  className="f2 fw6 ph0 mh0 vsla ">AWPEAD SACCO </legend>
 				      <div className="mt3">
 				        <label className="db fw6 lh-copy f6" htmlFor="email-address">Tel. No OR Email Address</label>
 				        <input className="pa2 input-reset ba bg-transparent hover-bg-lightest-blue grow br2 b--light-blue hover-blue w-100" 
