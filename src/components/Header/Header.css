@@ -21,6 +21,7 @@
 	}
 .dropdownlis p{
 	font-size: 12px;
+	 padding-top: 5% 0%;
 }
 
 .opts{
@@ -37,13 +38,13 @@
   min-width: 0%;
   cursor: pointer;
   border-radius: 10%;
-  padding: 5% 0%;
+ 
   top: 0;              /* Aligns the top of the submenu with the top of the parent */
-  right: 3%;         /* Forces the submenu to expand to the left of the parent link */
+  right: 0%;         /* Forces the submenu to expand to the left of the parent link */
   width: 40px;
   font-family: "Bookman old style";
   color: white;
-  padding-top: 	3%;
+  
 }
 
 
