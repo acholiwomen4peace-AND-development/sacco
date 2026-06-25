@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sacco/static/css/main.b904c231.css",
+    "main.css": "/sacco/static/css/main.f70db99c.css",
     "main.js": "/sacco/static/js/main.5448ff1a.js",
     "static/js/453.21452597.chunk.js": "/sacco/static/js/453.21452597.chunk.js",
     "static/media/6.jpg": "/sacco/static/media/6.88d73d3fa023517290e0.jpg",
@@ -15,12 +15,12 @@
     "static/media/logo.jpg": "/sacco/static/media/logo.5c93c2a197f3c67952fa.jpg",
     "static/media/Cellphone.JPG": "/sacco/static/media/Cellphone.031bb2ed39c398ec2aaa.JPG",
     "index.html": "/sacco/index.html",
-    "main.b904c231.css.map": "/sacco/static/css/main.b904c231.css.map",
+    "main.f70db99c.css.map": "/sacco/static/css/main.f70db99c.css.map",
     "main.5448ff1a.js.map": "/sacco/static/js/main.5448ff1a.js.map",
     "453.21452597.chunk.js.map": "/sacco/static/js/453.21452597.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b904c231.css",
+    "static/css/main.f70db99c.css",
     "static/js/main.5448ff1a.js"
   ]
 }
