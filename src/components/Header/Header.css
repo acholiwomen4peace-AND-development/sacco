@@ -22,6 +22,7 @@
 .dropdownlis p{
 	font-size: 12px;
 	 padding: 5%;
+	 
 }
 
 .opts{
@@ -53,7 +54,8 @@
 .dropdow:hover .dropdownlis{
   display: grid;
   grid-auto-rows: 0.05fr;
-  right: -2%;
+  right: 0%;
+
   .opts{
 		width: 100vw;
 		height: 100%;
