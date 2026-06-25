@@ -66,6 +66,8 @@
 	}
 	.opts img{
 		position: relative;
+		width: 60%vw;
+		height: 35vh%;
 	}
 	.optionValue{
 		 top: 0;  
