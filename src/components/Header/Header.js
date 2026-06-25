@@ -22,7 +22,7 @@ class Header extends React.Component{
 		<p className='optionValue' >Loans</p>
 		 <div className=" dropdow" >
 		    
-			<img src={logo} alt="logo" width='2%' height='30%' style={{cursor: 'pointer', 'border-radius': '50%', position:'absolute', right: '0%'}}className='logo-C' /> 
+			<img src={logo} alt="logo" width='2%' height='30%' style={{cursor: 'pointer', 'border-radius': '50%', position:'absolute', right: '-2%'}}className='logo-C' /> 
 	      	<div className="dropdownlis">
 	     	<p className=" Listdow mt0 ma0 pa0" onClick={()=>{this.props.onRouteChange('Sign')}} >Sign Out</p><br></br>
 	    
