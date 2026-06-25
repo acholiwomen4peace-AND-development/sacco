@@ -20,7 +20,7 @@
 
 	}
 
-	.dropdownlis span{
+	.dropdownlis p{
 		padding: 5% 0%;
 
 	}
@@ -39,8 +39,7 @@
   min-width: 0%;
   cursor: pointer;
   border-radius: 10%;
-  margin: 0% 0%;
-  padding-top: 0px;
+  padding: 5% 0%;
   top: 0;              /* Aligns the top of the submenu with the top of the parent */
   right: 3%;         /* Forces the submenu to expand to the left of the parent link */
   width: 40px;
