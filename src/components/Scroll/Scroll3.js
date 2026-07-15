@@ -5,7 +5,7 @@ import React from 'react';
 const Scroll3 = (props) =>{
 
 	 return(
-	<div className="hover-blue" style={{ overflowY: 'scroll', border: '2px solid purple', height: 100, width: '100%', display: 'flex', 'justify-content': 'flex-start'}}>
+	<div className="hover-blue" style={{ overflowY: 'scroll', border: '2px solid purple', height: 100, width: '100%', display: 'flex', 'justifyContent': 'flex-start'}}>
 	{props.children}
 	</div>
 	);

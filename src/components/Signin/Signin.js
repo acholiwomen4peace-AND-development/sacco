@@ -4,6 +4,7 @@ import logo from './logo.jpg'
 import Cellphone from '../Contact/Cellphone.JPG'
 import LocationIcon from '../Contact/LocationIcon'
 
+
 const Copyright = () => {
   const currentYear = new Date().getFullYear();
   return (
@@ -55,6 +56,7 @@ class Signin extends Component{
 								</div>
 
 					<div className="flx-container1-1-3 center">
+					
 					<h5><em>"Hope for a better future"</em></h5>
 					</div>
 			</div>

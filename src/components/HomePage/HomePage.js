@@ -14,6 +14,7 @@ import Projects from '../Projects/Projects'
 import { Routes, Route, Link } from 'react-router-dom'
 import ForgotPassword from '../PasswordReset/ForgotPassword'
 import ChangePassword from '../PasswordReset/ChangePassword'
+import ParentAp from '../Register/ParentAp';
 
 
 
@@ -22,10 +23,11 @@ class HomePage extends Component{
 		super(props)
 		this.state={
 			route: 'Sign',
-			isSignin: false
+			isSignin: false,
 			
 		}
 	}
+
 onRouteChange =(route)=>{
 	if(route==='isSignin'){
 		this.setState({isSignin:true})
@@ -63,11 +65,11 @@ onRouteChange =(route)=>{
 
 render(){
 return(
-<div >	
+<div>	
 <Header isSignin={this.state.isSignin} onRouteChange={this.onRouteChange}/> 
 	
 	{this.state.route==='isSignin'?
-	<div className="container mt5">
+	<div className="container mt5" style={{height: '100%', width:'100%'}}>
 	<MenuItems onRouteChange={this.onRouteChange} />
 	<Register onRouteChange={this.onRouteChange}/>
 	</div>

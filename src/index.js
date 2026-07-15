@@ -8,6 +8,9 @@ import HomePage from './components/HomePage/HomePage';
 import { BrowserRouter } from 'react-router-dom'
 import './index.css'
 
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://yourdomain.com;"/>
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
